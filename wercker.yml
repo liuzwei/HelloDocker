@@ -49,7 +49,7 @@ build:
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        cmd: ./hellodocker
+        cmd: hellodocker
         repository: $DOCKER_USERNAME/hellodocker
         tag: latest
 
